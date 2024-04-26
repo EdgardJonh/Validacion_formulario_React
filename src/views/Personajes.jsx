@@ -1,7 +1,9 @@
+import PErsonajesHarry  from "../components/PersonajesHarry/MiApi" 
 const Personajes = ()=>{
+
     return(
         <div className="row">
-            <p>Personajes</p>
+            <PErsonajesHarry></PErsonajesHarry>
         </div>
     )
 }

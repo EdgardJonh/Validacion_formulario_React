@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Navegacion></Navegacion>
-      <div className="container">
+      <div className="container" style={{margin: '0%', maxWidth:'100%'}}>
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/Personajes" element={<Personajes />}></Route>
