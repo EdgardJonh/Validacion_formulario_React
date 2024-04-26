@@ -30,7 +30,7 @@ const MiApi = () => {
   }
   return (
     <>
-      <div>
+      <div className="container">
         
         
         
