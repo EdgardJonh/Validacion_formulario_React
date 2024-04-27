@@ -2,7 +2,7 @@ import PErsonajesHarry  from "../components/PersonajesHarry/MiApi"
 const Personajes = ()=>{
 
     return(
-        <div className="row">
+        <div className="container-fluid">
             <PErsonajesHarry></PErsonajesHarry>
         </div>
     )

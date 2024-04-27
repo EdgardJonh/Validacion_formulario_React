@@ -1,4 +1,4 @@
-import  { useState } from "react";
+import { useState } from "react";
 import MyCards from "./MyCards";
 import Buscador from "./Buscador";
 const Grilla = ({ persona }) => {
@@ -13,16 +13,14 @@ const Grilla = ({ persona }) => {
   );
   return (
     <div>
-     <Buscador handleSearch={handleSearch} searchTerm={searchTerm} ></Buscador>
-      <div className="row">
-        {filteredData &&
-          filteredData.map((estasPersonas) => (
-            <MyCards
-              lasPersonas={estasPersonas}
-              key={estasPersonas.id}
-            ></MyCards>
-          ))}
+      <Buscador handleSearch={handleSearch} searchTerm={searchTerm}></Buscador>
+      <div className="row d-flex justify-content-evenly">
+      {filteredData &&
+        filteredData.map((estasPersonas) => (
+          <MyCards lasPersonas={estasPersonas} key={estasPersonas.id}></MyCards>
+        ))}
       </div>
+  
     </div>
   );
 };

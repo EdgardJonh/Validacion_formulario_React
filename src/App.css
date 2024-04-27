@@ -1,13 +1,14 @@
 
-.container{
+.contenedor{
     background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url('https://4kwallpapers.com/images/walls/thumbs_3t/10735.jpg')
      no-repeat center
     center fixed;
- 
+ background-size: cover;
     margin: 0%;
     max-width: 100%;
     min-height: 100vh;
-    background-color: aqua;
+    background-color: rgb(117, 117, 117);
     display: flex;
     justify-content: center;
     align-items: center;

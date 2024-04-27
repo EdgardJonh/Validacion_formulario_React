@@ -29,15 +29,10 @@ const MiApi = () => {
 	
   }
   return (
-    <>
-      <div className="container">
-        
-        
-        
+      <div>
         <Grilla persona={personajes}></Grilla>
       </div>
-      {/* <MiCards persona={personajes}></MiCards> */}
-    </>
+      
   );
 };
 export default MiApi;
