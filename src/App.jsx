@@ -14,7 +14,7 @@ function App() {
       <Navegacion></Navegacion>
       <div className="contenedor">
         <Routes>
-          <Route path="/" element={<HomePage />}></Route>
+          <Route path="/Validacion_formulario_React" element={<HomePage />}></Route>
           <Route path="/Personajes" element={<Personajes />}></Route>
           <Route path="/Contacto" element={<Contacto />}></Route>
           <Route path="*" element={<NotFound />}></Route>
